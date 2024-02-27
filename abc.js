@@ -8,7 +8,7 @@ if (randomNumber === 0) {
     computerChoice = "tails";
 }
 if (userChoice.toLowerCase() === computerChoice) {
-    alert("You guessed right! The coin flip landed on " + userChoice);
+    alert("You guessed right! The coin flip landed on " + computerChoice);
   } else {
-    alert("Sorry, the coin flip landed on " + userChoice);
+    alert("Sorry, the coin flip landed on " + computerChoice);
   }
